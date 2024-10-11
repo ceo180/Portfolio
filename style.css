@@ -1,0 +1,52 @@
+/* My stylesheet */
+
+body {font-family: Arial, Helvetica, sans-serif;
+ background-color: #ffffcc;
+}
+
+img {
+    border: 10px solid green;
+}
+
+h1 {
+    border-bottom: 2px double red;
+    padding-bottom: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4rem;
+}
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+}
+cite {
+    font-size: 1.5rem;
+}
+.italic {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+a {
+    text-decoration: none;
+}
+a:link{
+    color: blue;
+    font-style: italic;
+}
+a:visited{
+    color: blueviolet;
+}
+a:hover{
+    /*font-size: 3rem;*/
+   /* background-color: black;*/
+    text-decoration: underline;
+}
+footer{
+    border-top: 1px double red;
+}
+blockquote{
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 10px 15px;
+}

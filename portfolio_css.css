@@ -1,0 +1,86 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    background-image:url(../Practice/AutoCAD_LT.png);
+    background-size: cover;
+    
+}
+.logo{
+    max-width: 60px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px double #fd4766;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+a{
+    text-decoration: none;
+    position: relative;
+    color: white;
+    font-size: 1rem;
+    border: 1px solid black;
+    padding: 3px 20px;
+    border-radius: 10px;
+    background-color: #fd4766;
+    border-style: none;
+}
+a:hover{
+    color:/* rgb(15, 5, 90);*/ #fd4766;
+    background-color: transparent;
+}
+a:after{
+    width: 0;
+    left: 0;
+    height: 3px;
+    background: #fd4766;
+    transition: .3s;
+    content: "";
+    position: absolute;
+    bottom: 0;
+}
+a:hover:after{
+    width: 100%;
+}
+.first{
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: smaller;
+}
+.second{
+    font-size: 60px;
+    /*border: 1px solid black;*/
+    margin: 0.8rem 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.third{
+    font-family: sans-serif;
+    width: 45%;
+    font-size: smaller;
+}
+.body{
+    /*width: 60%;*/
+    margin: 6rem 0 4rem 0;
+}
+span{
+    color: #fd4766;
+}
+button{
+    border-radius: 10px;
+    font-size: .7rem;
+    padding: 12px;
+    border-style: none;
+    background-color: #fd4766;
+    color: aliceblue;
+    border: 1px solid #fd4766;
+}
+button:hover{
+    background-color: transparent;
+    color: #fd4766;
+    border: 1px solid #fd4766;
+}
